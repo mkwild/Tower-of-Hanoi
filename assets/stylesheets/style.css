@@ -1,0 +1,43 @@
+#towers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+}
+
+.tower {
+    border: 2px solid black;
+    height: 400px;
+    width: 30%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.disk {
+    height: 75px;
+}
+
+.disk:focus, .disk:active {
+    border: 1px solid white;
+}
+
+#disk-1 {
+    width: 98%;
+    background-color: orange;
+}
+
+#disk-2 {
+    width: 78%;
+    background-color: blue;
+}
+
+#disk-3 {
+    width: 58%;
+    background-color: yellow;
+}
+
+#disk-4 {
+    width: 38%;
+    background-color: red;
+}
