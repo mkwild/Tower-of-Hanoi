@@ -81,4 +81,8 @@ towerElement3.addEventListener("click", function() {
         }
         active = false
     }
+    let checkWin = currentEventTarget.childElementCount
+    if (checkWin === 4) {
+        alert('Win!')
+    }
 })
